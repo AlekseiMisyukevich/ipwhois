@@ -10,6 +10,6 @@ The service fetches IP address data from ipwhois.io
 
   Base path - `http://localhost:3000`
 
-  POST `/lookup/ipAddr` - lookup IP address data, saves into database. It is also used to get IP address data.
+  POST `/lookup/:ipAddr` - lookup IP address data, saves into database. It is also used to get IP address data.
   
-  DELETE `/lookup/ipAddr` - removes IP address data from database
+  DELETE `/lookup/:ipAddr` - removes IP address data from database
